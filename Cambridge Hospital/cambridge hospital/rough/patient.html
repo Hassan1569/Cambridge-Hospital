@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Slider</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-item {
+            padding: 20px;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">What Our Patients Say</h2>
+        <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient A</h5>
+                                    <p class="card-text">"The treatment I received was exceptional. Thank you for your support!"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient B</h5>
+                                    <p class="card-text">"Thanks to your donations, I was able to access life-saving care."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient C</h5>
+                                    <p class="card-text">"Your support made a huge difference in my recovery process."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient D</h5>
+                                    <p class="card-text">"The community programs you support are incredible. Thank you!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient E</h5>
+                                    <p class="card-text">"I can't express how grateful I am for your generosity."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient F</h5>
+                                    <p class="card-text">"Your donations have a real impact on people's lives."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient G</h5>
+                                    <p class="card-text">"The quality of care exceeded my expectations."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient H</h5>
+                                    <p class="card-text">"I am thankful for the support and care I received."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient I</h5>
+                                    <p class="card-text">"The staff was amazing and the treatment was top-notch."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient J</h5>
+                                    <p class="card-text">"Your efforts in medical research are greatly appreciated."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient K</h5>
+                                    <p class="card-text">"Thank you for the exceptional care and support throughout my journey."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Patient L</h5>
+                                    <p class="card-text">"Your support means the world to me and my family."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</body>
+</html>

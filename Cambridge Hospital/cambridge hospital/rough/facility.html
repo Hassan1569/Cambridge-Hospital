@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambridge Hospital - Facilities</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .facilities-section {
+            padding: 50px 0;
+        }
+        .facility-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .facility-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Facilities Section -->
+<section class="facilities-section text-center">
+    <div class="container">
+        <h2 class="mb-5">Our Facilities</h2>
+        <div class="row">
+            <!-- ICU -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="ICU">
+                    <div class="card-body">
+                        <h5 class="card-title">Intensive Care Unit (ICU)</h5>
+                        <p class="card-text">
+                            Our ICU is equipped with advanced life support systems and staffed by specialized medical professionals to provide critical care to patients with life-threatening conditions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Rooms -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Rooms">
+                    <div class="card-body">
+                        <h5 class="card-title">Patient Rooms</h5>
+                        <p class="card-text">
+                            Our hospital offers comfortable and fully equipped patient rooms designed to provide a restful environment for recovery. We offer both private and shared accommodations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Medical Facility -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Medical Facility">
+                    <div class="card-body">
+                        <h5 class="card-title">Advanced Medical Facilities</h5>
+                        <p class="card-text">
+                            Cambridge Hospital is equipped with state-of-the-art medical technology, ensuring that our patients receive the best diagnostic and therapeutic services available.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <!-- Other Facilities -->
+            <div class="col-md-4 offset-md-4">
+                <div class="card facility-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Other Facilities">
+                    <div class="card-body">
+                        <h5 class="card-title">Other Facilities</h5>
+                        <p class="card-text">
+                            We also offer a wide range of other facilities including rehabilitation centers, on-site pharmacies, diagnostic labs, and more to ensure comprehensive care for our patients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- jQuery and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- JavaScript for Animations -->
+<script>
+    $(document).ready(function(){
+        $('.facility-card').hover(
+            function() {
+                $(this).addClass('shadow-lg').css('cursor', 'pointer');
+            }, function() {
+                $(this).removeClass('shadow-lg');
+            }
+        );
+    });
+</script>
+
+</body>
+</html>

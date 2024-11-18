@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambridge Hospital - Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .service-section {
+            padding: 50px 0;
+        }
+        .service-title {
+            margin-bottom: 30px;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body p {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Services Section -->
+<section class="service-section text-center">
+    <div class="container">
+        <h2 class="service-title">Our Services</h2>
+        <div class="row">
+            <!-- General Services -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="General Services">
+                    <div class="card-header">
+                        <h3>General Services</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            We offer a comprehensive range of general healthcare services, including outpatient care, emergency services, and inpatient treatment. Our skilled healthcare professionals are dedicated to providing high-quality medical care tailored to each patient’s needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Health Checkups -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Health Checkups">
+                    <div class="card-header">
+                        <h3>Health Checkups</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Regular health checkups are crucial for maintaining good health. We offer various health screening packages designed to detect early signs of illness and help you stay on top of your health. From basic to comprehensive checkups, we have a package for everyone.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Specialties -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Specialties">
+                    <div class="card-header">
+                        <h3>Specialties</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Our hospital is home to numerous specialties, including cardiology, neurology, oncology, orthopedics, and more. Our specialized departments are equipped with the latest technology and staffed by experts who are leaders in their respective fields.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- jQuery and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- jQuery to Toggle Text -->
+<script>
+    $(document).ready(function(){
+        $(".card-header").click(function(){
+            $(this).next(".card-body").find("p").slideToggle();
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Departments</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+        .card-text {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <header class="bg-light text-primary p-4 rounded">
+            <h1 class="text-center">Our Departments</h1>
+            <p class="text-center">Learn more about the various departments in our healthcare facility.</p>
+        </header>
+        <hr>
+        <div class="row">
+            <!-- Department 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Cardiology Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardiology Department</h5>
+                        <p class="card-text">Specialized care for heart conditions and diseases.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Department 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Orthopedic Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Orthopedic Department</h5>
+                        <p class="card-text">Expert care for musculoskeletal issues and injuries.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Department 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Neurology Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Neurology Department</h5>
+                        <p class="card-text">Comprehensive care for neurological disorders.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Department 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Oncology Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Oncology Department</h5>
+                        <p class="card-text">Advanced treatments for cancer patients.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Department 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Pediatrics Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Pediatrics Department</h5>
+                        <p class="card-text">Specialized care for children and adolescents.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Department 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gynecology Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Gynecology Department</h5>
+                        <p class="card-text">Comprehensive care for women's health.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Department 7 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gastroenterology Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Gastroenterology Department</h5>
+                        <p class="card-text">Expert care for digestive system disorders.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Department 8 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Pulmonology Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulmonology Department</h5>
+                        <p class="card-text">Specialized care for respiratory conditions.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Department 9 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Rheumatology Department">
+                    <div class="card-body">
+                        <h5 class="card-title">Rheumatology Department</h5>
+                        <p class="card-text">Treatment for autoimmune and joint disorders.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.card').hover(function(){
+                $(this).addClass('shadow-lg').css('cursor', 'pointer');
+            }, function(){
+                $(this).removeClass('shadow-lg');
+            });
+        });
+    </script>
+</body>
+</html>

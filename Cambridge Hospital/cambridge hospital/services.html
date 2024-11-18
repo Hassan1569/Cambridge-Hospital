@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Services | Cambridge Memorial Hospital</title>
+        <link rel="icon" href="images/logo-1.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="STYLE SHEET]/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- <link rel="stylesheet" href="STYLE SHEET]/services.css"> -->
+    <style>
+        .navbar-nav .nav-link {
+            color: #000; /* Default link color */
+            transition: color 0.3s; /* Smooth transition for hover effect */
+            padding-bottom: 4px;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ff0019; /* Bootstrap's text-danger color */
+            border-bottom: 1px solid red;
+        }
+        footer {
+          background-color: #f1f1f1;
+          text-align: center;
+          padding: 10px;
+          margin-top: 20px;
+      }
+      .bg-primary {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .services {
+            margin-top: 20px;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        p a{
+          text-decoration: none;
+        }
+        body{
+          padding-top: 76px;
+        }
+        .card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+        .card-text {
+            font-size: 1rem;
+        }
+      </style>
+    </head>
+<body class="bg-light">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  px-5 nav-color bg fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/cambridgelogo.png" height="50px" alt="Cambridge Hospital Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link  text-light fs-6" aria-current="page" href="home.html">Home</a>
+                  </li>
+  
+                  <li class="nav-item">
+                      <a class="nav-link text-danger fs-6 " href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light " href="departments.html">Departments</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light " href="facility.html">facility</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light " href="centers.html">Centers</a>
+                 </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light  " href="contactus.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light " href="feedback.html">Feedback</a>
+                  </li>
+  
+              </ul>
+              <div class="ml-4">
+                <a type="button" class="btn btn-danger mb-1" data-bs-toggle="modal" data-bs-target="#supportUsModal">
+                  Support Us
+                </a>
+                <a href="careers.html" class="btn btn-danger mb-1"><i class="fas fa-chalkboard-teacher"></i>Careers</a>
+              </div>
+  
+          </div>
+      </div>
+  </nav> 
+
+  <!--Breadcrumb-->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb container">
+      <li class="breadcrumb-item text-primary bread"><a href="home.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Services</li>
+    </ol>
+  </nav>
+      <!--BODY-->
+
+
+      <div class="container mt-5">
+        <header class="bg-light text-danger p-4 rounded">
+            <h1 class="text-center">Our Services</h1>
+            <p class="text-center">Explore the wide range of healthcare services we offer.</p>
+        </header>
+        <hr>
+        <div class="row">
+            <!-- Service 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/emergency.jpg" class="card-img-top" alt="Emergency Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Emergency Services</h5>
+                        <p class="card-text">24/7 emergency care for urgent medical situations.Our Emergency Department is open 24/7, providing immediate medical attention to patients with life-threatening conditions, severe injuries, or sudden illnesses. Our team of highly trained emergency physicians, nurses, and support staff are equipped to handle a wide range of emergencies with prompt and effective care.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/outpatient.jpg" class="card-img-top" alt="Outpatient Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Outpatient Services</h5>
+                        <p class="card-text">Convenient outpatient care for routine medical needs.We offer a comprehensive range of outpatient services, including consultations, minor procedures, and follow-up care. Patients can access specialized medical care without the need for an overnight stay, allowing for more convenience and flexibility in managing their health.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/inpatient.jpg" class="card-img-top" alt="Inpatient Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Inpatient Services</h5>
+                        <p class="card-text">Comprehensive inpatient care for serious health conditions.Our inpatient services cater to patients who require hospitalization for more intensive care, monitoring, or surgical recovery. We provide comfortable rooms, personalized care, and access to a multidisciplinary team of healthcare professionals to ensure a smooth and speedy recovery.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Service 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/sergical.jpg" class="card-img-top" alt="Surgical Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Surgical Services</h5>
+                        <p class="card-text">Advanced surgical procedures and post-operative care.Our state-of-the-art surgical facilities are equipped to perform a wide range of surgeries, from routine procedures to complex operations. Our team of skilled surgeons, anesthetists, and surgical nurses work together to provide safe, efficient, and effective surgical care.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/diagnostic-imaging.jpeg" class="card-img-top" alt="Diagnostic Imaging">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Diagnostic Imaging</h5>
+                        <p class="card-text">State-of-the-art imaging for accurate diagnosis.We offer advanced diagnostic imaging services, including X-rays, CT scans, MRIs, and ultrasounds. Our imaging department is equipped with the latest technology, allowing for accurate and timely diagnosis to guide appropriate treatment plans.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/laboratory-services.jpg" class="card-img-top" alt="Laboratory Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Laboratory Services</h5>
+                        <p class="card-text">Comprehensive lab tests for precise medical insights.Our on-site laboratory provides a full spectrum of diagnostic testing, including blood tests, urine analysis, and specialized assays. We ensure quick and accurate results to support timely medical decisions and effective patient care.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Service 7 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/Rehabilitation-Services.png" class="card-img-top" alt="Rehabilitation Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Rehabilitation Services</h5>
+                        <p class="card-text">Physical therapy and rehabilitation for recovery.Our rehabilitation services are designed to help patients recover and regain functionality after injury, surgery, or illness. We offer physical therapy, occupational therapy, and speech therapy, tailored to meet each patient's unique needs and goals.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 8 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/Maternity-Services.jpg" class="card-img-top" alt="Maternity Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Maternity Services</h5>
+                        <p class="card-text">Comprehensive care for expectant mothers and newborns.We provide comprehensive maternity care, from prenatal visits to childbirth and postpartum care. Our experienced obstetricians, midwives, and nursing staff are dedicated to ensuring a safe and comfortable experience for mothers and their babies.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 9 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/Mental-Health-Services.jpg" class="card-img-top" alt="Mental Health Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Mental Health Services</h5>
+                        <p class="card-text">Support and treatment for mental health and well-being.We provide comprehensive maternity care, from prenatal visits to childbirth and postpartum care. Our experienced obstetricians, midwives, and nursing staff are dedicated to ensuring a safe and comfortable experience for mothers and their babies.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Service 10 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/Pharmacy-Services.jpg" class="card-img-top" alt="Pharmacy Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Pharmacy Services</h5>
+                        <p class="card-text">Complete pharmacy services for all your medication needs.Our on-site pharmacy offers a full range of prescription medications, over-the-counter drugs, and health products. Our pharmacists are available to provide advice on medication management, potential side effects, and drug interactions.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 11 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/Nutrition Services.jpg" class="card-img-top" alt="Nutrition Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Nutrition Services</h5>
+                        <p class="card-text">Guidance and support for healthy eating and nutrition.Our nutrition services include dietary counseling, meal planning, and support for special dietary needs. Our registered dietitians work with patients to develop personalized nutrition plans that promote overall health and manage specific medical conditions.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 12 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/Orthopedic-Services.jpg" class="card-img-top" alt="Orthopedic Services">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Orthopedic Services</h5>
+                        <p class="card-text">Comprehensive care for bones, joints, and muscles.Our orthopedic services cover the diagnosis, treatment, and rehabilitation of musculoskeletal conditions, including fractures, joint replacements, and sports injuries. Our orthopedic specialists use the latest techniques and technologies to restore mobility and improve quality of life.
+                        </p>
+                        <a href="https://www.cambridgenetwork.co.uk/news/247-hospital-transfer-service-first-country" class="btn btn-danger">learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+<!-- Support Us Modal -->
+<div class="modal fade" id="supportUsModal" tabindex="-1" aria-labelledby="supportUsModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="supportUsModalLabel">Support Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Support Us Form -->
+        <form id="supportUsForm" novalidate>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">
+              Please enter a valid email address.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="donationAmount" class="form-label">Donation Amount</label>
+            <input type="number" class="form-control" id="donationAmount" required min="1">
+            <div class="invalid-feedback">
+              Please enter a valid donation amount (minimum 1).
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message (Optional)</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger w-100">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+     <!--Footer-->
+  
+  <!--accordin-->
+  <section class="bg-light pb-5">
+    <h1 class="container pt-5 pb-5 text-center text-danger">Frequently asked Questions</h1>
+   <div class="accordion container" id="accordionPanelsStayOpenExample">
+     <div class="accordion-item">
+       <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+         <button class="accordion-button text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+           What is Cambridge hospital known for?
+         </button>
+       </h2>
+       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+         <div class="accordion-body">
+           <strong>Addenbrooke's provides emergency, surgical and medical care for local people</strong> and is also a regional centre of excellence for specialist services such as organ transplantation, neurosciences, paediatrics and genetics.
+         </div>
+       </div>
+     </div>
+     <div class="accordion-item">
+       <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+         <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+           Who founded the Cambridge hospital?
+         </button>
+       </h2>
+       <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+         <div class="accordion-body">
+           <strong>John Addenbrooke (1680-1719) was the founder of Addenbrooke's Hospital in Cambridge.</strong> John Addenbrooke spent a third of his short life of thirty nine years at Catharine Hall (now St Catharine's College), where he was a Scholar, Fellow, Lecturer and Bursar.
+         </div>
+       </div>
+     </div>
+     <div class="accordion-item">
+       <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+         <button class="accordion-button collapsed text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+         What is the history of the Cambridge Military Hospital?
+         </button>
+       </h2>
+       <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+         <div class="accordion-body">
+           Cambridge Military Hospital was a hospital <strong>completed in 1879 in Aldershot Garrison, Hampshire, England which served the various British Army camps there.</strong> During World War I, the Cambridge Hospital was the first base hospital to receive casualties directly from the Western Front.
+         </div>
+       </div>
+     </div>
+   </div>
+ </section><hr>
+  <!--Footer-->
+   
+  <section class="section-subscribe ">
+    <div class="container">
+  
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 mb-4">
+          <h1 class="heading text-danger">
+            Get news &amp; updates
+          </h1>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-12">
+      <form action="" method="POST">
+     <div class="container-fluid ">
+      <div class="container ">
+        <div class="row">
+          <!-- Name Input with Validation -->
+          <div class="col-md-4 mb-4">
+              <input type="text" class="form-control" placeholder="Your name here" 
+                     pattern="[A-Za-z\s]{2,}" title="Name should only contain letters and spaces, and be at least 2 characters long." required>
+          </div>
+      
+          <!-- Email Input with Validation -->
+          <div class="col-md-4 mb-4">
+              <input type="email" class="form-control" placeholder="Your email here" 
+                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter a valid email address." required>
+          </div>
+      
+          <!-- Submit Button -->
+          <div class="col-md-4 mb-4">
+              <input type="submit" class="btn btn-danger w-100 h-100 " value="Subscribe">
+          </div>
+      </div>
+      
+        
+      </div>
+  
+  
+  
+     
+    </div>
+     </form>
+    </div>
+  
+  </section>
+     <footer class="footer bg-light bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+            <div class="information">
+              <h6 class="footer-heading text-uppercase text-dark fw-bold">
+                <img src="images/cambridgelogo.png" height="50px" alt="Cambridge Hospital Logo"> 
+              </h6>
+              <ul class="list-unstyled footer-link mt-4">
+                <li class="mb-1">
+                  <a href="events.html" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-calendar-alt"></i> Events
+                  </a>
+                </li>
+                <li class="mb-1">
+                  <a href="team.html" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-users"></i> Our Team
+                  </a>
+                </li>
+                <li class="mb-1">
+                  <a href="#" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-tags"></i> Upcoming Units
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-rocket"></i> New Launches
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+            <div class="resources">
+              <h6 class="footer-heading text-uppercase text-dark fw-bold text-white">Resources</h6>
+              <ul class="list-unstyled footer-link mt-4">
+                <li class="mb-1">
+                  <a href="#" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-code"></i> API
+                  </a>
+                </li>
+                <li class="mb-1">
+                  <a href="careers.html" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-chalkboard-teacher"></i> Carrers
+                  </a>
+                </li>
+                <li class="mb-1">
+                  <a href="collaborations.html" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-puzzle-piece"></i>Collaborations
+                  </a>
+                </li>
+                <li>
+                  <a href="video-section.html" class="text-dark text-decoration-none fw-semibold text-white">
+                    <i class="fas fa-video"></i> Videos Section
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 mt-4 col-lg-2 text-center text-sm-start">
+            <div class="social">
+              <h6 class="footer-heading text-uppercase text-dark fw-bold text-white">Social</h6>
+              <ul class="list-inline my-4">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/cambridgememorialhospital/" class="text-dark btn-sm btn btn-primary mb-2" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/cambridge_memorial_hospital/?hl=en" class="text-dark btn-sm btn btn-danger mb-2" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://x.com/_cmhospital?lang=en" class="text-dark btn-sm btn btn-info mb-2" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/posts/cambridgememorialhospital_ourcmh-ipac-nicw-activity-7120140208997597187-1O68" class="text-dark btn-sm btn btn-success mb-2" aria-label="WhatsApp">
+                    <i class="fab fa-linkedin "></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 mt-4 col-lg-4 text-center text-sm-start">
+            <div class="contact">
+              <h6 class="footer-heading text-uppercase text-dark fw-bold text-white">Contact Us</h6>
+              <address class="mt-4 m-0 text-dark mb-1 text-white">
+                <i class="fas fa-map-marker-alt"></i> 700 Coronation Blvd, Cambridge, ON N1R 3G2, Canada
+              </address>
+              <a href="tel:909090XXXX" class="text-dark mb-1 text-decoration-none d-block fw-semibold text-white">
+                <i class="fas fa-phone"></i> 909090XXXX
+              </a>
+              <a href="mailto:xyzdemomail@gmail.com" class="text-dark mb-1 text-decoration-none d-block fw-semibold text-white">
+                <i class="fas fa-envelope"></i> cambridge_memorial_hospital@gmail.com
+              </a>
+              <a href="skype:xyzdemomail?chat" class="text-dark text-decoration-none fw-semibold text-white">
+                <i class="fab fa-skype"></i> cambridge_memorial_hospitalmail
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center bg-dark text-white mt-4 p-1 bg-light text-dark">
+        <p class="mb-0 fw-bold">2024 © Cambridge Hospital, All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- Support Us Modal -->
+<div class="modal fade" id="supportUsModal" tabindex="-1" aria-labelledby="supportUsModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="supportUsModalLabel">Support Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Support Us Form -->
+        <form id="supportUsForm" novalidate>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">
+              Please enter a valid email address.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="donationAmount" class="form-label">Donation Amount</label>
+            <input type="number" class="form-control" id="donationAmount" required min="1">
+            <div class="invalid-feedback">
+              Please enter a valid donation amount (minimum 1).
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message (Optional)</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger w-100">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Validation Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('supportUsForm');
+    
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+
+      form.classList.add('was-validated');
+    }, false);
+  });
+
+    
+      $(document).ready(function(){
+          $('.card').hover(function(){
+              $(this).addClass('shadow-lg').css('cursor', 'pointer');
+          }, function(){
+              $(this).removeClass('shadow-lg');
+          });
+      });
+    </script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>

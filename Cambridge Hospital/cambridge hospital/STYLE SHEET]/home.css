@@ -1,0 +1,10 @@
+  /* Set a fixed height for the carousel slides */
+  .carousel-item img {
+    height: 500px; /* Adjust height as needed */
+    object-fit: cover;
+  }
+  /* Optional: Ensure the text animation works well with a height */
+  .carousel-caption {
+    bottom: 20%;
+    z-index: 10;
+  }

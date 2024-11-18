@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Section | Cambridge Memorial Hospital</title>
+    <link rel="icon" href="images/logo-1.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="STYLE SHEET]/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--<link rel="stylesheet" href="STYLE SHEET]/home.css"> -->
+    <style>
+      .navbar-nav .nav-link {
+          color: #000; /* Default link color */
+          transition: color 0.3s; /* Smooth transition for hover effect */
+          padding-bottom: 4px;
+      }
+      .navbar-nav .nav-link:hover {
+          color: #ff0019; /* Bootstrap's text-danger color */
+          border-bottom: 1px solid red;
+      }
+      footer {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .navbar-nav .nav-link {
+              color: #000; /* Default link color */
+              transition: color 0.3s; /* Smooth transition for hover effect */
+              padding-bottom: 4px;
+          }
+          .navbar-nav .nav-link:hover {
+              color: #ff0019; /* Bootstrap's text-danger color */
+              border-bottom: 1px solid red;
+          }
+          footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+            body {
+                font-family: 'Arial', sans-serif;
+            }
+            .header-background {
+                background: linear-gradient(to right, #007bff, #0056b3);
+                color: white;
+            }
+            .header-background h1 {
+                font-size: 4rem;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+            .section {
+                padding: 60px 0;
+            }
+            .section.bg-light {
+                background-color: #f8f9fa;
+            }
+            .section h2 {
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+                color: #343a40;
+            }
+            .section p {
+                font-size: 1.125rem;
+                color: #495057;
+            }
+            .img-fluid {
+                border-radius: 15px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            .list-unstyled li {
+                font-size: 1.125rem;
+                color: #343a40;
+            }
+            .text-primary-custom {
+                color: #007bff;
+            }
+            .bg-primary-custom {
+                background-color: #007bff;
+            }
+      
+            .jumbotron-custom {
+                background: white;
+                color: #141618;
+                padding: 60px 30px;
+                text-align: center;
+            }
+    
+            .jumbotron-custom h1 {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+    
+            .jumbotron-custom p {
+                font-size: 1.2rem;
+                margin-top: 20px;
+            }
+            #hospitalOverview{
+              background: linear-gradient(45deg, #141618, #4698af);
+              color: white;
+            }
+            #history{
+              background: linear-gradient(45deg, #141618, #4698af);
+              color: white;
+            }
+            #achievements{
+              background: linear-gradient(45deg, #141618, #4698af);
+              color: white;
+            }
+            /*.bg{
+              background: linear-gradient(45deg, #141618, #4698af);
+              color: #fff;
+            } */
+            .appointment{
+              text-decoration: none;
+            }
+            body{
+          padding-top: 76px;
+        }
+    </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  px-5 nav-color bg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/cambridgelogo.png" height="50px" alt="Cambridge Hospital Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="home.html">Home</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="departments.html">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="facility.html">facility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="centers.html">Centers</a>
+                   </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light  " href="contactus.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="feedback.html">Feedback</a>
+                    </li>
+    
+                </ul>
+                <div class="ml-4">
+                  <a  type="button" class="btn btn-danger mb-1" data-bs-toggle="modal" data-bs-target="#supportUsModal">
+                    Support Us</a>
+                  <a href="careers.html" class="btn btn-danger mb-1"><i class="fas fa-chalkboard-teacher"></i>Careers</a>
+                </div>
+    
+            </div>
+        </div>
+    </nav> 
+
+          <!--Breadcrumb-->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb container">
+      <li class="breadcrumb-item text-primary bread"><a href="home.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Videos Section</li>
+    </ol>
+  </nav>
+
+        <div class="container mt-5">
+            <h1 class="text-center mb-4 text-danger">Videos Section</h1>
+            <input type="text" id="search" class="form-control mb-4" placeholder="Search for News...">
+            <div class="row" id="videoList">
+                <!-- Video card 1 -->
+                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                    <div class="card">
+                        <img src="images/welcome.png" class="card-img-top" alt="Cardiology">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Welcome to Cambridge!</h5>
+                            <p class="card-text">Interested? Here’s how to apply: https://www.cam.ac.uk/study 
+                                Welcome to the University of Cambridge! <br>
+                                See what it’s like to live and study in Cambridge.
+                                </p>
+                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=LlCwHnp3kL4">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video card 2 -->
+                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                    <div class="card">
+                        <img src="images/uoc.webp" class="card-img-top" alt="Cardiology">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Life at Cambridge University: Fees, Scholarships + Campus Tour 🔥</h5>
+                            <p class="card-text">Indian Students in Cambridge University: Best Math & Sciences School of London and Top 10 in the World. Cambridge University Campus Tour.  <br>
+                                </p>
+                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=Eu1wW72---A">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional video cards (over 30) -->
+                <!-- Repeat the below pattern for each additional lecture -->
+                <!-- Video card 3 -->
+                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                    <div class="card">
+                        <img src="images/cambridge-hospital-video.webp" class="card-img-top" alt="Cardiology">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">About Cambridge Health Alliance</h5>
+                            <p class="card-text">Cambridge Health Alliance (CHA) is a vibrant, innovative health system that serves everyone in need. With over 140,000 patients in Boston’s metro-north region, CHA is proud to provide the health care people need most in their lives.  <br>
+                                </p>
+                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=KgiIr7a_6-c">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video card 4 -->
+                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                    <div class="card">
+                        <img src="images/cmh.webp" class="card-img-top" alt="Cardiology">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Cambridge Memorial Hospital
+                            </h5>
+                            <p class="card-text">Cambridge Memorial Hospital takes pride in creating an environment that makes patients and their families feel welcome while providing privacy. "Most of the rooms in this hospital are private rooms. <br>
+                                </p>
+                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=sOoQUn5a8kY">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Video card 5 -->
+                                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                                    <div class="card">
+                                        <img src="images/hospital-tour.webp" class="card-img-top" alt="Cardiology">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-danger">Labour and Delivery Wing at Cambridge Memorial Hospital tour
+                                            </h5>
+                                            <p class="card-text">Are you curious to see the labour/delivery wing at the hospital in Cambridge?  Wait no more and press play.
+                                                It's a common misconception that midwives can't deliver babies at the hospital. <br>
+                                                </p>
+                                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=xkm9YemB23Y">Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                                <!-- Video card 6 -->
+                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                    <div class="card">
+                        <img src="images/cmh-recuriment.webp" class="card-img-top" alt="Cardiology">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">CUH recruitment video</h5>
+                            <p class="card-text">Interested? Here’s how to apply: https://www.cam.ac.uk/study 
+                                Welcome to the University of Cambridge! <br>
+                                See what it’s like to live and study in Cambridge.
+                                </p>
+                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=3dDIojwMExw">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Video card 7-->
+                                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                                    <div class="card">
+                                        <img src="images/cuh-message.webp" class="card-img-top" alt="Cardiology">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-danger">Industrial Action at Cambridge University Hospitals - Message from Chief Nurse Lorraine Szeremeta</h5>
+                                            <p class="card-text">Interested? Here’s how to apply: https://www.cam.ac.uk/study 
+
+                                                </p>
+                                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=JLMIlYuxnS4">Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                                <!-- Video card 8 -->
+                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                    <div class="card">
+                        <img src="images/doctor-in-cambridge.webp" class="card-img-top" alt="Cardiology">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">I'M NOW A CAMBRIDGE DOCTOR | Life Update</h5>
+                            <p class="card-text">I celebrated two significant milestones earlier this month. Firstly, I marked a decade in the field of medicine, having started my medical school journey in July/Aug 2013. Secondly, and equally monumental, I began training in my dream location as a doctor.
+                                </p>
+                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=Pvjq5bmr-tw">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Video card 9 -->
+                                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                                    <div class="card">
+                                        <img src="images/live-in-cambridge.webp" class="card-img-top" alt="Cardiology">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-danger">Cambridge University</h5>
+                                            <p class="card-text">Join this channel to get access to perks:
+                                                / @ujjwalchoudhary3924  
+                                             
+                                             Find housing: https://amberstudent.com/places/leads...
+                                             
+                                             Follow my journey 👇
+                                             Instagram - https://www.instagram.com/ujjwal_chou...
+                                                </p>
+                                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=pCk1eGjHrSI">Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                                <!-- Video card 10 -->
+                <div class="col-md-4 mb-4 video-card" data-title="Cardiology">
+                    <div class="card">
+                        <img src="images/children-cambridge.webp" class="card-img-top" alt="Cardiology">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Cambridge University</h5>
+                            <p class="card-text">With a pioneering new approach to treat young people in a whole new way, Cambridge Children’s Hospital will be the first purpose-built hospital to integrate children’s mental and physical healthcare. 
+                                </p>
+                            <a class="btn btn-danger"  href="https://www.youtube.com/watch?v=u27_822ErC8">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">Video Lecture</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" id="videoFrame" src="" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer bg-light bg">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+                  <div class="information">
+                    <h6 class="footer-heading text-uppercase text-dark fw-bold">
+                      <img src="images/cambridgelogo.png" height="50px" alt="Cambridge Hospital Logo"> 
+                    </h6>
+                    <ul class="list-unstyled footer-link mt-4">
+                      <li class="mb-1">
+                        <a href="events.html" class="text-dark text-decoration-none fw-semibold text-white">
+                          <i class="fas fa-calendar-alt"></i> Events
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="team.html" class="text-dark text-decoration-none fw-semibold text-white">
+                          <i class="fas fa-users"></i> Our Team
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="#" class="text-dark text-decoration-none fw-semibold text-white">
+                          <i class="fas fa-tags"></i> Upcoming Units
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-dark text-decoration-none fw-semibold text-white">
+                          <i class="fas fa-rocket"></i> New Launches
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+                  <div class="resources">
+                    <h6 class="footer-heading text-uppercase text-dark fw-bold text-white">Resources</h6>
+                    <ul class="list-unstyled footer-link mt-4">
+                      <li class="mb-1">
+                        <a href="#" class="text-dark text-decoration-none fw-semibold text-white">
+                          <i class="fas fa-code"></i> API
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="careers.html" class="text-dark text-decoration-none fw-semibold text-white">
+                          <i class="fas fa-chalkboard-teacher"></i>Careers</a>
+                        </a>
+                      </li>
+                      <li class="mb-1">
+                        <a href="collaborations.html" class="text-dark text-decoration-none fw-semibold text-white">
+                          <i class="fas fa-puzzle-piece"></i>Collaborations
+                        </a>
+                      </li>
+                      <li>
+                        <a href="video-section.html" class="border-bottom text-decoration-none fw-semibold text-light">
+                          <i class="fas fa-video"></i> Videos Section
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mt-4 col-lg-2 text-center text-sm-start">
+                  <div class="social">
+                    <h6 class="footer-heading text-uppercase text-dark fw-bold text-white">Social</h6>
+                    <ul class="list-inline my-4">
+                      <li class="list-inline-item">
+                        <a href="https://www.facebook.com/cambridgememorialhospital/" class="text-dark btn-sm btn btn-primary mb-2" aria-label="Facebook">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/cambridge_memorial_hospital/?hl=en" class="text-dark btn-sm btn btn-danger mb-2" aria-label="Instagram">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://x.com/_cmhospital?lang=en" class="text-dark btn-sm btn btn-info mb-2" aria-label="Twitter">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/posts/cambridgememorialhospital_ourcmh-ipac-nicw-activity-7120140208997597187-1O68" class="text-dark btn-sm btn btn-success mb-2" aria-label="WhatsApp">
+                          <i class="fab fa-linkedin "></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 mt-4 col-lg-4 text-center text-sm-start">
+                  <div class="contact">
+                    <h6 class="footer-heading text-uppercase text-dark fw-bold text-white">Contact Us</h6>
+                    <address class="mt-4 m-0 text-dark mb-1 text-white">
+                      <i class="fas fa-map-marker-alt"></i> 700 Coronation Blvd, Cambridge, ON N1R 3G2, Canada
+                    </address>
+                    <a href="tel:909090XXXX" class="text-dark mb-1 text-decoration-none d-block fw-semibold text-white">
+                      <i class="fas fa-phone"></i> 909090XXXX
+                    </a>
+                    <a href="mailto:xyzdemomail@gmail.com" class="text-dark mb-1 text-decoration-none d-block fw-semibold text-white">
+                      <i class="fas fa-envelope"></i> cambridge_memorial_hospital@gmail.com
+                    </a>
+                    <a href="skype:xyzdemomail?chat" class="text-dark text-decoration-none fw-semibold text-white">
+                      <i class="fab fa-skype"></i> cambridge_memorial_hospitalmail
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center bg-dark text-white mt-4 p-1 bg-light text-dark">
+              <p class="mb-0 fw-bold">2024 © Cambridge Hospital, All Rights Reserved</p>
+            </div>
+          </footer>
+          
+<!-- Support Us Modal -->
+<div class="modal fade" id="supportUsModal" tabindex="-1" aria-labelledby="supportUsModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="supportUsModalLabel">Support Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Support Us Form -->
+        <form id="supportUsForm" novalidate>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">
+              Please enter a valid email address.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="donationAmount" class="form-label">Donation Amount</label>
+            <input type="number" class="form-control" id="donationAmount" required min="1">
+            <div class="invalid-feedback">
+              Please enter a valid donation amount (minimum 1).
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message (Optional)</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger w-100">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Validation Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('supportUsForm');
+    
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+
+      form.classList.add('was-validated');
+    }, false);
+  });
+</script>
+        <script>
+            // JavaScript for modal video playback
+            $('#videoModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var videoSrc = button.data('video');
+                var modal = $(this);
+                modal.find('#videoFrame').attr('src', videoSrc);
+            });
+    
+            $('#videoModal').on('hidden.bs.modal', function () {
+                $(this).find('#videoFrame').attr('src', '');
+            });
+    
+            // JavaScript for search functionality
+            $('#search').on('keyup', function() {
+                var value = $(this).val().toLowerCase();
+                $('#videoList .video-card').filter(function() {
+                    $(this).toggle($(this).data('title').toLowerCase().indexOf(value) > -1);
+                });
+            });
+        </script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
